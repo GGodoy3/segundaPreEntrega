@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    background-color: aliceblue;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+h1 {
+    color: black;
+    padding: 30px;
+}
+
+header ul li {
+    display: inline-block;
+    /*box modelling*/
+    margin: 25px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*MAIN*/
+.texto {
+    color: brown;
+    text-align: center;
+}
+
+/*FOOTER*/
+.final {
+    border: 3px solid black;
+    color: #457b9d;
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+img {
+    width: 300px;
+    height: 250px;
+
+}
+
+
+
+
+
+
+/*formulario */
+
+body {
+    background-color: #5DADE2;
+}
+
+.contenedor {
+    background-color: #117A65;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.contenedor h1 {
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.control {
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #1f53c5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.boton {
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(to left top, #005aa7, #fffde4);
+    font-size: 20px;
+}
+
+.boton:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.boton:active {
+    transform: translateY(3px);
+}
+
+.control:focus {
+    height: 60px;
+}
+
+/* Pagina de Trading*/
+.cuerpoTrading {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+/*Movile First */
+/* en pagina de MERCADOS*/
+
+.gridPadre {
+    text-align: center;
+    background-color: #fffde4;
+}
+
+.primerSeccion {
+    background-color: #24303c;
+    grid-area: primerSeccion;
+}
+
+.segundaSeccion {
+    background-color: green;
+    grid-area: segundaSeccion;
+}
+
+.terceraSeccion {
+    background-color: blue;
+    grid-area: cuartaSeccion;
+}
+
+.secA {
+    background-color: yellowgreen;
+    grid-area: secA;
+}
+
+.secB {
+    background-color: orange;
+    grid-area: secB;
+}
+
+.cuartaSeccion {
+    background-color: gray;
+    grid-area: cuartaSeccion;
+
+}
+
+.quintaSeccion {
+    background-color: #24303c;
+    grid-area: quintaSeccion;
+
+}
+
+/*Version Tablet*/
+
+@media (min-width:768px) {
+    .gridPadre {
+        display: grid;
+        grid-template-areas:
+            "primerSeccion primerSeccion"
+            "segundaSeccion secA"
+            "segundaSeccion secA"
+            "segundaSeccion secB"
+            "terceraSeccion terceraSeccion"
+            "cuartaSeccion cuartaSeccion"
+            "quintaSeccion quintaSeccion"
+        ;
+        gap: 15px;
+    }
+}
+
+/*Versión Escritorio*/
+
+@media (min-width:1024px) {
+    .gridPadre {
+        display: grid;
+        grid-template-areas:
+            "primerSeccion primerSeccion primerSeccion "
+            "segundaSeccion secA secA"
+            "segundaSeccion secB secB"
+            "cuartaSeccion secA secA"
+            "cuartaSeccion secB secB"
+            "quintaSeccion quintaSeccion quintaSeccion"
+        ;
+    }
+}
+
+
+/*Mobile First */
+/* Pagina de COMPRAS */
+
+
+
+.gridPadreDos {
+    text-align: center;
+    background-color: #fffde4;
+}
+
+.ladoA {
+    background-color: green;
+    grid-area: ladoA;
+}
+
+.ladoB {
+    background-color: rgb(85, 7, 7);
+    grid-area: ladoB;
+}
+
+.ladoC {
+    background-color: maroon;
+    grid-area: ladoC;
+}
+
+.ladoD {
+    background-color: blue;
+    grid-area: ladoD;
+}
+
+.ladoE {
+    background-color: blueviolet;
+    grid-area: ladoE;
+}
+
+.ladoF {
+    background-color: goldenrod;
+    grid-area: ladoF;
+
+}
+
+.ladoG {
+    background-color: rebeccapurple;
+    grid-area: ladoG;
+
+}
+
+/*Version Tablet*/
+
+@media (min-width:768px) {
+    .gridPadreDos {
+        display: grid;
+        grid-template-areas:
+            "ladoA ladoA"
+            "ladoB ladoD"
+            "ladoB ladoD"
+            "ladoB ladoE"
+            "ladoC ladoC"
+            "ladoF ladoF"
+            "ladoG ladoG"
+        ;
+        gap: 15px;
+    }
+}
+
+/*Versión Escritorio*/
+
+@media (min-width:1024px) {
+    .gridPadreDos {
+        display: grid;
+        grid-template-areas:
+            "ladoA ladoA ladoA"
+            "ladoB ladoB ladoC"
+            "ladoB ladoB ladoC"
+            "ladoF ladoD ladoD"
+            "ladoF ladoE ladoE"
+            "ladoG ladoG ladoG"
+        ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Gradientes*/
+.cuerpoInicio {
+    background: linear-gradient(to left, #141E30, #243B55);
+}
+
+/*color fondo navbar */
+.colorFondo {
+    background-color: #778da9;
+}
