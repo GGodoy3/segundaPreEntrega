@@ -54,6 +54,7 @@ img {
 
 
 
+
 /*formulario */
 
 body {
@@ -125,7 +126,24 @@ body {
     background: linear-gradient(to left, #141E30, #243B55);
 }
 
-/*color fondo navbar */
+/*Navbar */
 .colorFondo {
     background-color: #778da9;
+}
+
+/* Responsivo */
+
+@media screen and (max-width:360px) {
+    .iconoBtc {
+        display: none;
+    }
+}
+
+/*Header*/
+
+
+@media screen and (max-width:800px) {
+    .imgCards {
+        display: column;
+    }
 }

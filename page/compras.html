@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compras-universocripto.com</title>
-     <!-- BootStrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Compras | universocripto.com</title>
+    <!-- Favicom -->
+    <link rel="icon" type="image/x-icon" href="/img/eth.png">
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- css -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
@@ -16,74 +18,116 @@
 <body class="cuerpoInicio">
 
     <header>
-        <h1>Compras</h1>
+        <!-- Icono -->
+        <h1>
+            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="yellow" class="iconoBtc"
+                viewBox="0 0 16 16">
+                <path
+                    d="M5.5 13v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.5v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.084c1.992 0 3.416-1.033 3.416-2.82 0-1.502-1.007-2.323-2.186-2.44v-.088c.97-.242 1.683-.974 1.683-2.19C11.997 3.93 10.847 3 9.092 3H9V1.75a.25.25 0 0 0-.25-.25h-1a.25.25 0 0 0-.25.25V3h-.573V1.75a.25.25 0 0 0-.25-.25H5.75a.25.25 0 0 0-.25.25V3l-1.998.011a.25.25 0 0 0-.25.25v.989c0 .137.11.25.248.25l.755-.005a.75.75 0 0 1 .745.75v5.505a.75.75 0 0 1-.75.75l-.748.011a.25.25 0 0 0-.25.25v1c0 .138.112.25.25.25L5.5 13zm1.427-8.513h1.719c.906 0 1.438.498 1.438 1.312 0 .871-.575 1.362-1.877 1.362h-1.28V4.487zm0 4.051h1.84c1.137 0 1.756.58 1.756 1.524 0 .953-.626 1.45-2.158 1.45H6.927V8.539z" />
+            </svg>Compras
+        </h1>
     </header>
 
-     <!-- Menú NavBar de navegación-->
-     <nav class="navbar navbar-expand-lg colorFondo">
+    <!-- Menú NavBar de navegación-->
+    <nav class="navbar navbar-expand-lg colorFondo">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">Inicio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="compras.html">Compras</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contactos</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Trading
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="trading.html">Copy Trading</a></li>
-                  <li><a class="dropdown-item" href="#">Bot Trading</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Tabla de clasificación</a></li>
+            <a class="navbar-brand" href="../index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="compras.html">Compras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contactos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Trading
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="trading.html">Copy Trading</a></li>
+                            <li><a class="dropdown-item" href="#">Bot Trading</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Tabla de clasificación</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mercados.html">Mercados</a>
+                    </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="mercados.html">Mercados</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-          </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
         </div>
-      </nav>
+    </nav>
 
-    <main>
+    <main class="texto">
         <h2>Compra de criptomonedas</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe molestias asperiores amet sint. Minima
-            corrupti consequatur, facilis fuga, quidem eos nobis cumque nesciunt nostrum, quibusdam minus sunt eveniet
-            iusto perferendis.</p>
+        <!-- Cards -->
+        <div class="d-flex">
+
+            <div class="card" style="width: 18rem;">
+                <img src="../img/criptomonedaRDNT.jpg" class="card-img-top" alt="criptomonedaRDNT">
+                <div class="card-body">
+                    <h3 class="card-title">RDNT/USDT ya listado!</h3>
+                    <p class="card-text">Deposita para ganar 400,000 RDNT en recompensas!</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../img/criptomonedaCore.jpg" class="card-img-top" alt="criptomonedaCore">
+                <div class="card-body">
+                    <h4 class="card-title">Nuevo listado: CORE/USDT</h4>
+                    <p class="card-text">Core ya está incluido en la plataforma de Spot</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="../img/Imagen de referidos.jpg" class="card-img-top" alt="imagendeReferidos">
+                <div class="card-body">
+                    <h5 class="card-title">Fiesta de Referidos</h5>
+                    <p class="card-text">Invita a tus amigos y obtene un fondo de premios en USDT</p>
+                    <a href="#" class="btn btn-primary">Más información</a>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <h3>Cómo conseguir criptomonedas</h3>
+        <p>Los métodos habituales para conseguir bitcoins son dos: comprarlas o hacer intercambios o minar
+            criptomonedas. Se pueden comprar a través de páginas especializadas con monedas virtuales en las que pagamos
+            con trasferencia o con PayPal y conseguimos unas criptomonedas a cambio, por ejemplo</p>
     </main>
 
     <!-- Footer -->
-  <footer class="final">
-    <h3>Todos los derechos reservados</h3>
-    <ul>
-      <li>
-        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-        <a href="https://twitter.com/" target="_blank">Twitter</a>
-        <a href="https://instagram.com" target="_blank">Instagram</a>
-      </li>
-    </ul>
-  </footer>
+    <footer class="final">
+        <h3>Todos los derechos reservados</h3>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                <a href="https://twitter.com/" target="_blank">Twitter</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </li>
+        </ul>
+    </footer>
 
-   <!-- Bootstrap Script -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-   integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-   crossorigin="anonymous"></script>
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
