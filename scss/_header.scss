@@ -1,0 +1,20 @@
+
+
+/*Header*/
+h1 {
+	color: $color_3;
+	padding: 30px;
+}
+header {
+	ul {
+		li {
+			display: inline-block;
+			margin: 25px;
+		}
+	}
+}
+a {
+	color: $color_3;
+	text-decoration: none;
+	font-weight: bold;
+}

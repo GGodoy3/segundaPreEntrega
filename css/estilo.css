@@ -1,149 +1,124 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 body {
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-/*Header*/
+/*Gradientes*/
+.cuerpoInicio {
+  background: linear-gradient(to left, #141E30, #243B55);
+}
+
+/*header*/
 h1 {
-    color: black;
-    padding: 30px;
+  color: black;
+  padding: 30px;
 }
 
 header ul li {
-    display: inline-block;
-    /*box modelling*/
-    margin: 25px;
+  display: inline-block;
+  margin: 25px;
 }
 
 a {
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /*MAIN*/
 .texto {
-    color: brown;
-    text-align: center;
+  color: brown;
+  text-align: center;
 }
 
 /*FOOTER*/
 .final {
-    border: 3px solid black;
-    color: #457b9d;
-    text-align: center;
+  border: 3px solid black;
+  color: #457b9d;
+  text-align: center;
 }
 
 footer ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 img {
-    width: 300px;
-    height: 250px;
-
+  width: 300px;
+  height: 250px;
 }
 
-
-
-
-
-
-
 /*formulario */
-
 body {
-    background-color: #5DADE2;
+  background-color: #5DADE2;
 }
 
 .contenedor {
-    background-color: #117A65;
-    width: 400px;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    box-shadow: 7px 13px 37px #000;
+  background-color: #117A65;
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  color: #457b9d;
+  box-shadow: 7px 13px 37px #000;
 }
-
 .contenedor h1 {
-    font-size: 24px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    text-align: center;
-    text-transform: uppercase;
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .control {
-    width: 100%;
-    background-color: #24303c;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    border: 1px solid #1f53c5;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+  width: 100%;
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border: 1px solid #1f53c5;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+.control:focus {
+  height: 60px;
 }
 
 .boton {
-    width: 100%;
-    height: 45px;
-    margin-top: 15px;
-    border-radius: 4px;
-    border: none;
-    color: white;
-    text-transform: uppercase;
-    background: linear-gradient(to left top, #005aa7, #fffde4);
-    font-size: 20px;
+  width: 100%;
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  background: linear-gradient(to left top, #005aa7, #fffde4);
+  font-size: 20px;
 }
-
 .boton:hover {
-    cursor: pointer;
-    transform: translateY(-3px);
-    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
-
 .boton:active {
-    transform: translateY(3px);
-}
-
-.control:focus {
-    height: 60px;
-}
-
-
-
-
-/*Gradientes*/
-.cuerpoInicio {
-    background: linear-gradient(to left, #141E30, #243B55);
+  transform: translateY(3px);
 }
 
 /*Navbar */
-.colorFondo {
-    background-color: #778da9;
-}
-
 /* Responsivo */
-
-@media screen and (max-width:360px) {
-    .iconoBtc {
-        display: none;
-    }
+.colorFondo {
+  background-color: #778da9;
 }
 
-/*Header*/
-
-
-@media screen and (max-width:800px) {
-    .imgCards {
-        display: column;
-    }
+@media screen and (max-width: 360px) {
+  .iconoBtc {
+    display: none;
+  }
 }
+
+/*# sourceMappingURL=estilo.css.map */

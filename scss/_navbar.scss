@@ -1,0 +1,14 @@
+$background-color_1: #778da9;
+
+/*Navbar */
+/* Responsivo */
+.colorFondo {
+	background-color: $background-color_4;
+}
+@media screen and (max-width:360px) {
+	.iconoBtc {
+		display: none;
+	}
+}
+
+
