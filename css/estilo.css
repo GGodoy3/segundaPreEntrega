@@ -13,6 +13,10 @@ p {
 }
 
 /*header*/
+/*main*/
+/*formulario*/
+/*navbar*/
+/*Header*/
 h1 {
   color: black;
   padding: 30px;
@@ -119,6 +123,10 @@ body {
   .iconoBtc {
     display: none;
   }
+}
+/*youtube*/
+.videoYoutube {
+  display: flex;
 }
 
 /*# sourceMappingURL=estilo.css.map */
