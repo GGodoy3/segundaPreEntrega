@@ -1,4 +1,5 @@
 $color_4: brown;
+$color_5: aquamarine;
 
 /*MAIN*/
 .texto {
@@ -6,3 +7,12 @@ $color_4: brown;
 	text-align: center;
 }
 
+/*MAIN Mercados*/
+.colorTitulo {
+	color: $color_5;
+}
+/*MAIN Formulario*/
+.colorFormulario {
+	color: $color_5;
+
+}

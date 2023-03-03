@@ -39,6 +39,16 @@ a {
   text-align: center;
 }
 
+/*MAIN Mercados*/
+.colorTitulo {
+  color: aquamarine;
+}
+
+/*MAIN Formulario*/
+.colorFormulario {
+  color: aquamarine;
+}
+
 /*FOOTER*/
 .final {
   border: 3px solid black;
@@ -127,6 +137,16 @@ body {
 /*youtube*/
 .videoYoutube {
   display: flex;
+}
+
+.videos {
+  display: contents;
+  width: 600px;
+}
+
+.cardsOrden {
+  display: flex;
+  padding: 55px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
