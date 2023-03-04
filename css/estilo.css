@@ -135,14 +135,23 @@ body {
   }
 }
 /*youtube*/
-.videoYoutube {
-  display: flex;
-  justify-content: center;
+.videos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  width: 100vw;
+  padding: 10px;
 }
 
-.videos {
-  display: contents;
-  width: 600px;
+@media screen and (max-width: 600px) {
+  .videos {
+    grid-template-columns: 1fr;
+    width: 100vw;
+    padding: 10px;
+  }
+}
+iframe {
+  width: 100%;
 }
 
 .cardsOrden {
